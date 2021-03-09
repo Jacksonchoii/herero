@@ -6,8 +6,7 @@
 <head>
 <title>HERE로</title>
 <meta charset="UTF-8" />
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body class="landing is-preload">
