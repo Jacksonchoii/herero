@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping(value="/group")
 public class GroupController {
 	
-	//ÇÊµå
+	//í•„ë“œ
 	
-	//»ı¼ºÀÚ
-	//g.s »ı·«
+	//ìƒì„±ì
+	//g.s ìƒëµ
 	
-	//ÀÏ¹İ ¸Ş¼Òµå
+	//ì¼ë°˜ ë©”ì†Œë“œ
 	
-	//±×·ì»ı¼º Æû
+	//ê·¸ë£¹ê°€ì… í¼
 	@RequestMapping(value="/groupForm", method = {RequestMethod.GET,RequestMethod.POST})
 	public String groupForm() {
 		System.out.println("/group/groupForm");
