@@ -9,7 +9,7 @@ public class MainController {
 	
 	@RequestMapping(value="/", method = RequestMethod.GET)
 	public String main() {
-		System.out.println("Herero 메인페이지");
+		System.out.println("Herro main");
 		
 		return "main/index";
 	}

@@ -1959,6 +1959,16 @@
 
 		}
 
+/* Search-box */
+
+
+	.search{
+			max-width: calc(100% - 5em);
+			width: 100%;
+			margin: 10px auto 10px auto;
+		}
+
+
 /* Container */
 
 	.container {
@@ -1966,7 +1976,8 @@
 		max-width: calc(100% - 5em);
 		width: 60em;
 	}
-
+	
+	
 		.container.xsmall {
 			width: 15em;
 		}
@@ -2006,6 +2017,9 @@
 			}
 
 		}
+
+
+
 
 /* Section/Article */
 
@@ -2843,8 +2857,9 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
+			background-color: #ff7851;
 			color: #ffffff !important;
+			float: right;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2860,6 +2875,8 @@
 			.button.primary:active {
 				background-color: #e4886a;
 			}
+			
+		
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -3321,11 +3338,13 @@
 				}
 
 					.box .image.featured:first-child {
+						width: 20%;
 						margin-bottom: 3em;
 						margin-top: -3em;
 					}
 
 					.box .image.featured:last-child {
+						width: 50%;
 						margin-bottom: -3em;
 						margin-top: 3em;
 					}

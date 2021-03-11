@@ -84,15 +84,15 @@
 
 
 			<div class="row">
-				<div class="col-6 col-12-narrower">
+				<div class="col-3 col-12-normal">
 
 					<section class="box special">
 						<span class="image featured"><img src="images/pic02.jpg"
 							alt="" /></span>
-						<h3>Sed lorem adipiscing</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed
-							aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
+						<h5>[최강류우]JAVA STUDY</h5>
+						<p align="justify" style="font-size: 13px;"> IT/컨텐츠 <br>
+							지역 : 서울시 강남구<br>
+							맴버수 : 37명</p>
 						<ul class="actions special">
 							<li><a href="#" class="button alt">소모임 가입하기</a></li>
 						</ul>
@@ -102,15 +102,47 @@
 
 
 
-				<div class="col-6 col-12-narrower">
+				<div class="col-3 col-12-normal">
 
 					<section class="box special">
 						<span class="image featured"><img src="images/pic03.jpg"
 							alt="" /></span>
-						<h3>영화 만들기 소모임 '촬CHAK'</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed
-							aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
+						<h5>영화 만들기 '촬CHAK'</h5>
+						<p align="justify" style="font-size: 13px;">IT/컨텐츠 <br>
+							지역 : 서울시 강남구<br>
+							맴버수 : 37명</p>
+						<ul class="actions special">
+							<li><a href="#" class="button alt">소모임 가입하기</a></li>
+						</ul>
+					</section>
+
+				</div>
+				
+				<div class="col-3 col-12-normal">
+
+					<section class="box special">
+						<span class="image featured"><img src="images/pic01.jpg"
+							alt="" /></span>
+						<h5>여행 동아리 'TRIP'</h5>
+						<p align="justify" style="font-size: 13px;">IT/컨텐츠 <br>
+							지역 : 서울시 강남구<br>
+							맴버수 : 37명</p>
+						<ul class="actions special">
+							<li><a href="#" class="button alt">소모임 가입하기</a></li>
+						</ul>
+					</section>
+
+				</div>
+				
+				<div class="col-3 col-12-normal">
+
+					<section class="box special">
+						<span class="image featured"><img src="images/pic04.jpg"
+							alt="" /></span>
+						<h5>DIY 공예 'MAKE IT'</h5>
+						<p align="justify" style="font-size: 13px;" >IT/컨텐츠 <br>
+							지역 : 서울시 강남구<br>
+							맴버수 : 37명</p>
 						<ul class="actions special">
 							<li><a href="#" class="button alt">소모임 가입하기</a></li>
 						</ul>

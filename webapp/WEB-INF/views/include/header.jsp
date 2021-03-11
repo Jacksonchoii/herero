@@ -4,7 +4,7 @@
 <!-- Header -->
 <header id="header" class="alt">
 	<h1>
-		<a href="${pageContext.request.contextPath}/"><img alt="" src="${pageContext.request.contextPath}/images/here_logo.png" width="75px"></a>
+		<a href="${pageContext.request.contextPath}/"><img alt="" src="${pageContext.request.contextPath}/images/here_logo.png" style="width: 80px; padding: 5px 0 5px 0;"></a>
 	</h1>
 	<nav id="nav">
 		<c:choose>

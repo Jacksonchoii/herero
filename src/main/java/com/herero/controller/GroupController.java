@@ -23,5 +23,22 @@ public class GroupController {
 		return "group/groupForm";
 		
 	}
+	
+	//소모임 메인
+	@RequestMapping(value="/groupMain", method = {RequestMethod.GET,RequestMethod.POST})
+	public String groupMain() {
+		System.out.println("/group/groupMain");
+		
+		return "group/groupMain";
+	}
+
+	//그룹 상세
+	@RequestMapping(value = "/groupHome", method = { RequestMethod.GET, RequestMethod.POST })
+	public String groupHome() {
+		System.out.println("/group/groupHome");
+
+		return "group/groupHome";
+
+	}
 
 }
