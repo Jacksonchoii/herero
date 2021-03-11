@@ -34,21 +34,21 @@
 			<section class="box special">
 				<header class="major">
 					<h2>'HERE로'에 처음 온 당신을 위한 안내서</h2>
-					<p>소모임 만드는 방법에서부터 오프라인 대관예약까지 4Step으로 간단하게 알려드립니다.</p>
+					<p>소모임 오프라인 대관예약  4Step으로 간단하게 알려드립니다.</p>
 				</header>
 
 				<section class="box special features">
 					<div class="features-row">
 						<section>
 							<span class="icon solid major fa-bolt accent2"></span>
-							<h3>Magna etiam</h3>
+							<h3>참석인원 확인하기</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed
 								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
 								accumsan dolore magna aliquam veroeros.</p>
 						</section>
 						<section>
 							<span class="icon solid major fa-chart-area accent3"></span>
-							<h3>Ipsum dolor</h3>
+							<h3>대관정보 검색</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed
 								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
 								accumsan dolore magna aliquam veroeros.</p>
@@ -57,14 +57,14 @@
 					<div class="features-row">
 						<section>
 							<span class="icon solid major fa-cloud accent4"></span>
-							<h3>Sed feugiat</h3>
+							<h3>대관예약하기</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed
 								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
 								accumsan dolore magna aliquam veroeros.</p>
 						</section>
 						<section>
 							<span class="icon solid major fa-lock accent5"></span>
-							<h3>Enim phasellus</h3>
+							<h3>결제하기</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed
 								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
 								accumsan dolore magna aliquam veroeros.</p>
