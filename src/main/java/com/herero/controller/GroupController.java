@@ -15,7 +15,7 @@ public class GroupController {
 	
 	//일반 메소드
 	
-	//그룹가입 폼
+	//그룹가입 
 	@RequestMapping(value="/groupForm", method = {RequestMethod.GET,RequestMethod.POST})
 	public String groupForm() {
 		System.out.println("/group/groupForm");

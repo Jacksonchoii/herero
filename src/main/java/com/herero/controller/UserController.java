@@ -11,15 +11,14 @@ import com.herero.sevice.UserService;
 @RequestMapping(value="/user")
 public class UserController {
 	
-	//ÇÊµå
-	
+	//í•„ë“œ
 
-	//»ı¼ºÀÚ
-	//g/s»ı·«
+	//ìƒì„±ì
+	//g.s ìƒëµ
 	
-	//ÀÏ¹İ ¸Ş¼Òµå
+	//ì¼ë°˜ ë©”ì†Œë“œ
 	
-	//·Î±×ÀÎÆû
+	//ë¡œê·¸ì¸ í¼
 	@RequestMapping(value="/loginForm", method = {RequestMethod.GET,RequestMethod.POST})
 	public String loginForm() {
 		System.out.println("/user/loginForm");

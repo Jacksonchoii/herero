@@ -25,40 +25,25 @@
 				<header class="major">
 					<h2>소모임 만들기</h2>
 				</header>
-				
-				<br>
-					<br>
-					
-					<div>STEP 1. 그룹 위치를 설정해주세요</div>
-					
-					<div>STEP 2. 그룹 위치를 설정해주세요</div>
-					
-					<div>STEP 3. 그룹 위치를 설정해주세요</div>
-					
-					<div>STEP 4. 그룹 위치를 설정해주세요</div>
-					
-					<div>STEP 5. 그룹 위치를 설정해주세요</div>
-					
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-					<div>STEP 6. 그룹 위치를 설정해주세요</div>
-				
-	
 
-				</section>
+				<br> <br>
+				<form>
+					<div>STEP 1. 그룹 위치를 설정해주세요</div>
+
+					<div>STEP 2. 그룹 위치를 설정해주세요</div>
+
+					<div>STEP 3. 그룹 위치를 설정해주세요</div>
+
+					<div>STEP 4. 그룹 위치를 설정해주세요</div>
+
+					<div>STEP 5. 그룹 위치를 설정해주세요</div>
+
+					<div>STEP 6. 그룹 위치를 설정해주세요</div>
+				</form>
+
+
+
+			</section>
 			</section>
 
 		<!-- footer -->
