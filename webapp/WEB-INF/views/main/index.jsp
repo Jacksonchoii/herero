@@ -87,14 +87,14 @@
 				<div class="col-3 col-12-normal">
 
 					<section class="box special">
-						<span class="image featured"><img src="images/pic02.jpg"
+						<span class="image featured"><img src="images/pic03.jpg"
 							alt="" /></span>
 						<h5>[최강류우]JAVA STUDY</h5>
 						<p align="justify" style="font-size: 13px;"> IT/컨텐츠 <br>
 							지역 : 서울시 강남구<br>
 							맴버수 : 37명</p>
 						<ul class="actions special">
-							<li><a href="#" class="button alt">소모임 가입하기</a></li>
+							<li><a href="${pageContext.request.contextPath}/group/groupHome" class="button alt">소모임 가입하기</a></li>
 						</ul>
 					</section>
 
@@ -105,7 +105,7 @@
 				<div class="col-3 col-12-normal">
 
 					<section class="box special">
-						<span class="image featured"><img src="images/pic03.jpg"
+						<span class="image featured"><img src="images/pic02.jpg"
 							alt="" /></span>
 						<h5>영화 만들기 '촬CHAK'</h5>
 						<p align="justify" style="font-size: 13px;">IT/컨텐츠 <br>

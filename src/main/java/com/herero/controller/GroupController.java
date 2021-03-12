@@ -32,12 +32,21 @@ public class GroupController {
 		return "group/groupMain";
 	}
 
-	//그룹 상세
+	//그룹 상세 (비그룹원)
 	@RequestMapping(value = "/groupHome", method = { RequestMethod.GET, RequestMethod.POST })
 	public String groupHome() {
 		System.out.println("/group/groupHome");
 
 		return "group/groupHome";
+
+	}
+	
+	//그룹 상세 (그룹원 전용)
+	@RequestMapping(value = "/groupHome2", method = { RequestMethod.GET, RequestMethod.POST })
+	public String groupHome2() {
+		System.out.println("/group/groupHome2");
+
+		return "group/groupHome2";
 
 	}
 
