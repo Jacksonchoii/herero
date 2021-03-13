@@ -32,9 +32,7 @@
 						<div class="row">
 							<div class="col-6 col-12-narmal">
 								<div style="border: 1px solid #e5e5e5;">
-									<img width="100%"
-										src="${pageContext.request.contextPath}/images/pic03.jpg"
-										alt="" />
+									<img width="100%" src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
 									<h5>영화 만들기 '촬CHAK'</h5>
 									<p style="font-size: 13px; text-align: justify; padding: 10%;">
 										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
@@ -138,95 +136,89 @@
 
 				<br> <br>
 
-				<div class="row">
+				<div class="row" style="margin-bottom: 50px;">
 					<div class="col-6 col-12-narmal">
-						<div style="border: 1px solid #e5e5e5; margin: 10px auto 20px auto;">
-							<img width="50%" src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" style="float: left;" />
-							<ul class="actions special">
-								<li><h5>영화 만들기 '촬CHAK'</h5></li>
-								<li><p style="font-size: 13px; text-align: justify; padding: 10%;">
-										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
+						<div style="border: 1px solid #e5e5e5;">
+							<img width="50%" height="165px" src="${pageContext.request.contextPath}/images/pic04.jpg" alt="" style="float: left; margin-right: 15px;" />
+							<div class="actions special" style="padding: 10px;">
+								<h5>영화 만들기 '촬CHAK'</h5>
+								<p style="font-size: 13px; text-align: justify; ">
+										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명 <br>
+										<button class="button small" style="margin-left: 40px;">소모임 가입하기</button>
 									</p>
-								</li>
-								<li><a href="#" class="button primary small">소모임 가입하기</a></li>
-							</ul>
+							</div>
 						</div>
 					</div>
 
 
 					<div class="col-6 col-12-narmal">
-						<div style="border: 1px solid #e5e5e5; margin: 10px auto 20px auto;">
-							<img width="100%"
-								src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
-							<h5>영화 만들기 '촬CHAK'</h5>
-							<p style="font-size: 13px; text-align: justify; padding: 10%;">
-								IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
-							</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary small">소모임 가입하기</a></li>
-							</ul>
+						<div style="border: 1px solid #e5e5e5;">
+							<img width="50%" height="165px" src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" style="float: left; margin-right: 15px;" />
+							<div class="actions special" style="padding: 10px;">
+								<h5>영화 만들기 '촬CHAK'</h5>
+								<p style="font-size: 13px; text-align: justify; ">
+										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명 <br>
+										<button class="button small" style="margin-left: 40px;">소모임 가입하기</button>
+									</p>
+							</div>
 						</div>
 					</div>
 				</div>
 				
-				<div class="row">
+				<div class="row" style="margin-bottom: 50px;">
 					<div class="col-6 col-12-narmal">
-						<div style="border: 1px solid #e5e5e5; margin: 10px auto 20px auto;">
-							<img width="100%"
-								src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
-							<h5>영화 만들기 '촬CHAK'</h5>
-							<p style="font-size: 13px; text-align: justify; padding: 10%;">
-								IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
-							</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary small">소모임 가입하기</a></li>
-							</ul>
+						<div style="border: 1px solid #e5e5e5;">
+							<img width="50%" height="165px" src="${pageContext.request.contextPath}/images/pic04.jpg" alt="" style="float: left; margin-right: 15px;" />
+							<div class="actions special" style="padding: 10px;">
+								<h5>영화 만들기 '촬CHAK'</h5>
+								<p style="font-size: 13px; text-align: justify; ">
+										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명 <br>
+										<button class="button small" style="margin-left: 40px;">소모임 가입하기</button>
+									</p>
+							</div>
 						</div>
 					</div>
 
 
 					<div class="col-6 col-12-narmal">
-						<div style="border: 1px solid #e5e5e5; margin: 10px auto 20px auto;">
-							<img width="100%"
-								src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
-							<h5>영화 만들기 '촬CHAK'</h5>
-							<p style="font-size: 13px; text-align: justify; padding: 10%;">
-								IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
-							</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary small">소모임 가입하기</a></li>
-							</ul>
+						<div style="border: 1px solid #e5e5e5;">
+							<img width="50%" height="165px" src="${pageContext.request.contextPath}/images/pic02.jpg" alt="" style="float: left; margin-right: 15px;" />
+							<div class="actions special" style="padding: 10px;">
+								<h5>영화 만들기 '촬CHAK'</h5>
+								<p style="font-size: 13px; text-align: justify; ">
+										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명 <br>
+										<button class="button small" style="margin-left: 40px;">소모임 가입하기</button>
+									</p>
+							</div>
 						</div>
 					</div>
 				</div>
 				
-				<div class="row">
+				<div class="row" style="margin-bottom: 50px;">
 					<div class="col-6 col-12-narmal">
-						<div style="border: 1px solid #e5e5e5; margin: 10px auto 20px auto;">
-							<img width="100%"
-								src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
-							<h5>영화 만들기 '촬CHAK'</h5>
-							<p style="font-size: 13px; text-align: justify; padding: 10%;">
-								IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
-							</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary small">소모임 가입하기</a></li>
-							</ul>
+						<div style="border: 1px solid #e5e5e5;">
+							<img width="50%" height="165px" src="${pageContext.request.contextPath}/images/pic04.jpg" alt="" style="float: left; margin-right: 15px;" />
+							<div class="actions special" style="padding: 10px;">
+								<h5>영화 만들기 '촬CHAK'</h5>
+								<p style="font-size: 13px; text-align: justify; ">
+										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명 <br>
+										<button class="button small" style="margin-left: 40px;">소모임 가입하기</button>
+									</p>
+							</div>
 						</div>
 					</div>
 
 
 					<div class="col-6 col-12-narmal">
-						<div style="border: 1px solid #e5e5e5; margin: 10px auto 20px auto;">
-							<img width="50%"
-								src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
-							<h5>영화 만들기 '촬CHAK'</h5>
-							<p style="font-size: 13px; text-align: justify; padding: 10%;">
-								IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
-							</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary small">소모임 가입하기</a></li>
-							</ul>
+						<div style="border: 1px solid #e5e5e5;">
+							<img width="50%" height="165px" src="${pageContext.request.contextPath}/images/pic01.jpg" alt="" style="float: left; margin-right: 15px;" />
+							<div class="actions special" style="padding: 10px;">
+								<h5>영화 만들기 '촬CHAK'</h5>
+								<p style="font-size: 13px; text-align: justify; ">
+										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명 <br>
+										<button class="button small" style="margin-left: 40px;">소모임 가입하기</button>
+									</p>
+							</div>
 						</div>
 					</div>
 				</div>

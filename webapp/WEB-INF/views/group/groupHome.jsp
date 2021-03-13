@@ -28,14 +28,12 @@
 						<!-- Introduction -->
 							<section id="calender" class="main">
 								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>JAVA 프로그래밍을 위한 소모임</h2>
-										</header>
-										<p>개발자가 되고 싶은 작은 꿈을 꾸고 있는 여러분을 환영합니다.<br>
-										매주 과제가 있으며, 서로 코드리뷰를 하면서 여러가지는 배우는 알찬 시간이었으면 좋겠습니다</p>
-									</div>
 									<span class="image"><img src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" /></span>
+									<div class="content">
+										<p>IT/컨텐츠<br>
+										      소모임원: 34명</p>
+										<button class="button">소모임 가입하기</button>
+									</div>
 								</div>
 							</section>
 
