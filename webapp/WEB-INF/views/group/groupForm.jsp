@@ -9,7 +9,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/group.css" />
 
+<style>
 
+.loca-input {
+	float : left;
+	width: 50%;
+	height : 38px;
+}
+
+.src-btn {
+	float : left;
+}
+
+</style>
 
 </head>
 <body>
@@ -32,7 +44,7 @@
 						<h3><strong>STEP 1. 소모임 위치를 설정해주세요.</strong></h3>
 					</div>
 					<div>
-						<input class="" type="text" placeholder="검색할 위치를 입력해주세요" />
+						<input class="loca-input" type="text" placeholder="검색할 위치를 입력해주세요" />
 						<button class="button src-btn" type="button">검색</button>
 					</div>
 
@@ -50,8 +62,8 @@
 							마음이 바뀌면 나중에 다시 변경할 수 있습니다.</h5>					
 					</div>
 					<div>
-						<input class="name-box" type="text" placeholder="이름입력">
-						<button class="button name-btn" type="button">중복확인</button>
+						<input class="loca-input" type="text" placeholder="이름입력" >
+						<button class="button src-btn" type="button">중복확인</button>
 					</div>
 					
 					<br><br><br><br>
@@ -59,9 +71,10 @@
 						<h3><strong>STEP 4. 소모임의 주소(URL)를 정해주세요.</strong></h3>
 						<h5>영문이나 숫자를 이용해 만들어 주세요. 예) http://herero.co.kr/( URL 주소 ) --> ( ) 입력해야 할 부분</h5>					
 					</div>
-					<div>
-						<input class="url-box" type="text" placeholder="http://herero.co.kr/URL 주소">
-						<button class="button url-btn" type="button">중복확인</button>
+					
+					<div class="container-textbox">
+						<input class="loca-input" type="text" placeholder="http://herero.co.kr/URL 주소" >
+						<button class="button src-btn">중복확인</button>
 					</div>
 					
 					<br><br><br><br>
@@ -71,10 +84,11 @@
 					</div>
 					<div align="left">
 						<input class="" type="file">
-						<p class="help-block">여기에 블록레벨 도움말 예제</p>
 					</div>
 					
 					<br>
+					<br>
+					
 					<div align="left">
 						<h3><strong>STEP 6. 소모임에 대해 소개해주세요.</strong></h3>
 						<h5>설명글은 회원들에게 소모임을 홍보할 때 표시됩니다. 변경사항이 있다면 나중에 언제든지 업데이트가 가능합니다.</h5>					
@@ -84,10 +98,12 @@
 						<li>어떤 회원을 모집하시나요?</li>
 						<li>소모임에서는 어떤 활동이 이루어지나요?</li>
 					</ul>
-					<textarea class="intro-textarea" rows="6" placeholder="최소 50자 이상 입력해주세요"></textarea>
+					<textarea class="intro-textarea" rows="6" placeholder="최소 50자 이상 입력해주세요" style="width: 80%;" ></textarea>
 
 					<br><br><br><br>
-					<a href="${pageContext.request.contextPath}/group/groupHome" class="button">동의하고 소모임 생성</a>
+					<input type="submit" src="${pageContext.request.contextPath}/group/groupHome" class="button primary">
+					
+					<br><br><br><br>
 				</form>
 
 
@@ -98,7 +114,7 @@
 		<!-- footer -->
 		<c:import url="/WEB-INF/views/include/footer.jsp"></c:import>
 
-	</div>
+
 
 </body>
 </html>
