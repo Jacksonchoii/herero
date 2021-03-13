@@ -106,9 +106,35 @@
 
 				<br> <br>
 
-				<div class="search">
-					<input type="text">
-				</div>
+				<section class="srcarea">
+					<div class="row">
+						<input class="col-2" type="text" placeholder="test">
+						<select class="col-2" name="rgn">
+							<option selected>시/군</option>
+							<option>서울특별시</option>
+							<option>경기도</option>
+							<option>인천광역시</option>
+							<option>강원도</option>
+						</select>
+						<select class="col-2" name="rgn">
+							<option selected>구</option>
+							<option>서초구</option>
+							<option>용산구</option>
+							<option>중랑구</option>
+							<option>강서구</option>
+						</select>
+						<select class="col-2" name="rgn">
+							<option selected>인원</option>
+							<option>2인</option>
+							<option>4인</option>
+							<option>6인</option>
+							<option>8인</option>
+							<option>8인이상</option>
+						</select>
+							<input class="col-3" type="text" placeholder="검색어를 입력해 주세요">
+							<button type="button" class="btn btn-primary col-1">검색</button>
+					</div>
+				</section>
 
 				<br> <br>
 
