@@ -50,11 +50,6 @@
 								- 매주 화요일 저녁 8시에 오프라인 모임 있습니다<br>
 								</p>
 
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="#" class="button">소모임 가입하기</a></li>
-									</ul>
-								</footer>
 							</section>
 
 					</div>
