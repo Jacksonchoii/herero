@@ -118,8 +118,8 @@
 								<table cellpadding="0" cellspacing="0" class="st-bg-table">
 									<tbody>
 										<tr>
-											<td class="st-bg st-bg-fc st-bg-today">&nbsp;</td>
-											<td class="st-bg st-bg-next">&nbsp;</td>
+											<td class="st-bg">&nbsp;</td>
+											<td class="st-bg">&nbsp;</td>
 											<td class="st-bg">&nbsp;</td>
 											<td class="st-bg">&nbsp;</td>
 											<td class="st-bg">&nbsp;</td>
@@ -131,9 +131,9 @@
 								<table cellpadding="0" cellspacing="0" class="st-grid">
 									<tbody>
 										<tr>
-											<td class="st-dtitle st-dtitle-fc st-dtitle-today"><span
+											<td class="st-dtitle"><span
 												class="ca-cdp26222">14</span></td>
-											<td class="st-dtitle st-dtitle-next"><span
+											<td class="st-dtitle"><span
 												class="ca-cdp26223">15</span></td>
 											<td class="st-dtitle"><span class="ca-cdp26224">16</span></td>
 											<td class="st-dtitle"><span class="ca-cdp26225">17</span></td>
