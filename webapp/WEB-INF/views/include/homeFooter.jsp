@@ -1,23 +1,23 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!-- Footer -->
 <footer id="footer">
 	<section>
 		<h2>HERERO</h2>
-		<p>¾ðÁ¦³ª ¿©·¯ºÐÀÇ ÀÔÀå¿¡¼­ »ý°¢ÇÏ°í ÀÖ´Â HERE·Î´Â
-		Áö¿ª ³» ÀÛÀº ¼Ò¸ðÀÓ »Ó¸¸ ¾Æ´Ï¶ó ±× °æ°è¸¦ ³Ñ¾î ¼¼°è ¸ðµç »ç¶÷µé°ú
-		±³·ùÇÏ´Â ±× ³¯±îÁö ¿©·¯ºÐ°ú ÇÔ²²ÇÒ ¿¹Á¤ÀÔ´Ï´Ù</p>
+		<p>ì–¸ì œë‚˜ ì—¬ëŸ¬ë¶„ì˜ ìž…ìž¥ì—ì„œ ìƒê°í•˜ê³  ìžˆëŠ” HEREë¡œëŠ”
+		ì§€ì—­ ë‚´ ìž‘ì€ ì†Œëª¨ìž„ ë¿ë§Œ ì•„ë‹ˆë¼ ê·¸ ê²½ê³„ë¥¼ ë„˜ì–´ ì„¸ê³„ ëª¨ë“  ì‚¬ëžŒë“¤ê³¼
+		êµë¥˜í•˜ëŠ” ê·¸ ë‚ ê¹Œì§€ ì—¬ëŸ¬ë¶„ê³¼ í•¨ê»˜í•  ì˜ˆì •ìž…ë‹ˆë‹¤</p>
 		<ul class="actions">
 			<li><a href="#" class="button">FAQ</a></li>
-			<li><a href="#" class="button">°í°´¼¾ÅÍ</a></li>
+			<li><a href="#" class="button">ê³ ê°ì„¼í„°</a></li>
 		</ul>
 	</section>
 	<section>
-		<h2>HERE·Î Company</h2>
+		<h2>HEREë¡œ Company</h2>
 		<dl class="alt">
 			<dt>Address</dt>
-			<dd>¼­¿ïÆ¯º°½Ã Á¾·Î±¸ ÀÎ»çµ¿ ÀÎ»çµ¿12±æ 12 ´ëÀÏºôµù 7Ãþ, 15Ãþ</dd>
+			<dd>ì„œìš¸íŠ¹ë³„ì‹œ ì¢…ë¡œêµ¬ ì¸ì‚¬ë™ ì¸ì‚¬ë™12ê¸¸ 12 ëŒ€ì¼ë¹Œë”© 7ì¸µ, 15ì¸µ</dd>
 			<dt>contact</dt>
 			<dd>(02) 123-4567</dd>
 			<dt>HERERO</dt>
@@ -27,6 +27,6 @@
 		</dl>
 	</section>
 	<p class="copyright">
-		&copy; Copyright HERE·Î. images: <a href="https://unsplash.com/">Unslash</a>.
+		&copy; Copyright HEREë¡œ. images: <a href="https://unsplash.com/">Unslash</a>.
 	</p>
 </footer>

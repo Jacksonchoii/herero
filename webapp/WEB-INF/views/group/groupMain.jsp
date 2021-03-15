@@ -31,7 +31,7 @@
 						<div class="row">
 							<div class="col-6 col-12-narmal">
 								<div style="border: 1px solid #e5e5e5;">
-									<img width="100%" src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" />
+									<img width="100%" src="${pageContext.request.contextPath}/images/pic01.jpg" alt="" />
 									<h5>영화 만들기 '촬CHAK'</h5>
 									<p style="font-size: 13px; text-align: justify; padding: 10%;">
 										IT/컨텐츠 <br> 지역 : 서울시 강남구<br> 맴버수 : 37명
@@ -45,7 +45,7 @@
 							<div class="col-6 col-12-narmal">
 								<div style="border: 1px solid #e5e5e5;">
 									<img width="100%"
-										src="${pageContext.request.contextPath}/images/pic03.jpg"
+										src="${pageContext.request.contextPath}/images/pic02.jpg"
 										alt="" />
 									<h5>영화 만들기 '촬CHAK'</h5>
 									<p style="font-size: 13px; text-align: justify; padding: 10%;">
@@ -85,7 +85,7 @@
 							<div class="col-6 col-12-narmal">
 								<div style="border: 1px solid #e5e5e5;">
 									<img width="100%"
-										src="${pageContext.request.contextPath}/images/pic03.jpg"
+										src="${pageContext.request.contextPath}/images/pic04.jpg"
 										alt="" />
 									<h5>영화 만들기 '촬CHAK'</h5>
 									<p style="font-size: 13px; text-align: justify; padding: 10%;">

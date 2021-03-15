@@ -49,5 +49,13 @@ public class GroupController {
 		return "group/groupHome2";
 
 	}
+	
+	//그룹 이벤트
+	@RequestMapping(value= "/groupEvent", method = {RequestMethod.GET, RequestMethod.POST})
+	public String groupEvent() {
+		System.out.println("/group/groupEvent");
+		
+		return "group/groupEvent";
+	}
 
 }
