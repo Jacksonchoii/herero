@@ -6,10 +6,9 @@
 <html>
 <head>
 <title>소모임 메인</title>
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/assets/css/group.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/group.css" />
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/page.css" nonce="">
 </head>
 <body>
 	<div id="page-wrapper">
@@ -222,6 +221,10 @@
 						</div>
 					</div>
 				</div>
+				
+				<!-- paging -->
+				<c:import url="/WEB-INF/views/include/page.jsp"></c:import>
+				
 
 			</section>
 		</section>
