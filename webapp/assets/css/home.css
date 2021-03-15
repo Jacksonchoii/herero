@@ -2451,7 +2451,7 @@
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
@@ -3479,7 +3479,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 3em 4em 3em 4em ;
 			border-top: solid 1px #dddddd;
 		}
 

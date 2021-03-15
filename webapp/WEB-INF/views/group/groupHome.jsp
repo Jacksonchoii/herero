@@ -7,6 +7,7 @@
 		<title>[최강류우]JAVA STUDY</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/home.css" />
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/slider.css">
 	</head>
 	<body>
 
@@ -26,9 +27,9 @@
 					<div id="main">
 
 						<!-- Introduction -->
-							<section id="calender" class="main">
+							<section id="information" class="main">
 								<div class="spotlight">
-									<span class="image"><img src="${pageContext.request.contextPath}/images/pic03.jpg" alt="" /></span>
+									<c:import url="/WEB-INF/views/include/slider.jsp"></c:import>
 									<div class="content">
 										<p>IT/컨텐츠<br>
 										      소모임원: 34명</p>
