@@ -2,6 +2,31 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!DOCTYPE HTML>
+
+<style>
+#group-info {
+	position: relative;
+	left: 100px;
+}
+
+#group-name {
+	width : 250px;
+	height : 50px;
+	margin-bottom : 30px;
+	color : white;
+	background-color : #D95829;	
+}
+
+#group-join {
+	width : 250px;
+	height : 50px;
+	color: white;
+	background-color : purple;
+}
+
+</style>
+
+
 <html>
 	<head>
 		<title>[최강류우]JAVA STUDY</title>
@@ -10,7 +35,7 @@
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/slider.css">
 	</head>
 	<body>
-
+	
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -30,10 +55,12 @@
 							<section id="information" class="main">
 								<div class="spotlight">
 									<c:import url="/WEB-INF/views/include/slider.jsp"></c:import>
-									<div class="content">
-										<p>IT/컨텐츠<br>
-										      소모임원: 34명</p>
-										<button class="button">소모임 가입하기</button>
+									<div class="content" id="group-info">
+										<button type="button" id="group-name">소모임 이름 영역</button>
+										<h5>지역: 서울특별시 서초구</h5>
+										<h5 style="margin-bottom: 50px;">멤버수: 34명</h5>
+										<button type="button" id="group-join">소모임 가입하기</button><br>
+										<span style="margin-right: 30px; font-size: 15px;" >문의하기</span><span style="font-size: 15px;">공유하기</span>
 									</div>
 								</div>
 							</section>
