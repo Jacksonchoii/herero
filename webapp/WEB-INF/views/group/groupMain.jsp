@@ -10,14 +10,20 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/group.css" />
 <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/page.css" nonce="">
 </head>
-<body>
+<body class="landing is-preload">
 	<div id="page-wrapper">
 
 		<!-- header +navi 옮김 -->
 		<c:import url="/WEB-INF/views/include/header.jsp"></c:import>
 
 		<!-- Main -->
-		<section id="groupMain" class="container">
+		
+		<!-- Banner -->
+		<section id="banner">
+			<h2>소모임 찾기</h2>
+		</section>
+		
+		<section id="Main" class="container">
 			<section class="box special">
 				<a href="${pageContext.request.contextPath}/group/groupForm" class="button small primary">소모임 만들기</a> <br> <br>
 
@@ -101,11 +107,12 @@
 					</div>
 				</div>
 
+
 				<br> <br>
 
-				<section class="srcarea">
+				<section class="srcarea" style="height: 38px;">
 					<div class="row">
-						<input class="col-2" type="text" placeholder="test">
+						<span><p>'SEARCH'</p></span>
 						<select class="col-2" name="rgn">
 							<option selected>시/군</option>
 							<option>서울특별시</option>
@@ -129,7 +136,7 @@
 							<option>8인이상</option>
 						</select>
 							<input class="col-3" type="text" placeholder="검색어를 입력해 주세요">
-							<button type="button" class="btn btn-primary col-1">검색</button>
+							<button type="button" class="button primary">검색</button>
 					</div>
 				</section>
 
@@ -228,7 +235,8 @@
 
 			</section>
 		</section>
-
+		
+		
 		<!-- footer -->
 		<c:import url="/WEB-INF/views/include/footer.jsp"></c:import>
 

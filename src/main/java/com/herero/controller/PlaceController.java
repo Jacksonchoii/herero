@@ -10,9 +10,9 @@ public class PlaceController {
 
 	// 대관메인
 	
-	@RequestMapping(value = "/Main" , method = {RequestMethod.GET, RequestMethod.POST})
+	@RequestMapping(value = "/main" , method = {RequestMethod.GET, RequestMethod.POST})
 	public String Main() {
-		System.out.println("/place/Main");
+		System.out.println("/place/main");
 		
 		return "place/placeMain";
 	}

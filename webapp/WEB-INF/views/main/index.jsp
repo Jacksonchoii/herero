@@ -24,7 +24,7 @@
 			</p>
 			<ul class="actions special">
 				<li><a href="${pageContext.request.contextPath}/group/groupForm" class="button primary">소모임 만들기</a></li>
-				<li><a href="#" class="button">대관 예약하기</a></li>
+				<li><a href="${pageContext.request.contextPath}/place/main" class="button">대관 예약하기</a></li>
 			</ul>
 		</section>
 
