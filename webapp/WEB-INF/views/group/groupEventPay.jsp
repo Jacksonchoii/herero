@@ -31,8 +31,39 @@
 #step-wrapper .guide-step .step-arrow {width : 0px;}
 #step-wrapper .guide-step .step-arrow img {width : 20px;}
 
-#input-label {position : center;}
+.eventinfo label {
+	display : block;
+	float: left;
+	width : 150px;
+	font-size: 20px;
+	margin-top: 6.5px;
+}
 
+#namebox {
+	display: inline-block;
+	width:300px;
+}
+
+
+
+#eventTime{
+	display: inline-block;
+	width:300px;
+}
+
+.eventinfo div {
+	display : inline-block;
+}
+
+.sub_tit {font-size: 24px; font-weight:  600;}
+
+.bt-area .btn-cre{
+	background-color : #D95829;
+}
+
+.bt-area .btn-can{
+	background-color : #1B1C26;
+}
 
 </style>
 
@@ -85,13 +116,124 @@
 					</ul>
 				</div>
 				
-				<label class="input-label" style="float:left;">일정 이름</label>
-				<input type="text" name="name" id="name" style="float:left; width: 150px; height: 50px;">
+				<!-- <div class="eventinfo">
+					<div class="eventname">
+						<label for="name">일정이름</label>
+						<input id="namebox" type="text">
+					</div>
+					<div class="eventdate">
+						<label for="name">일정날짜</label>
+						<input type="text" id="datepicker">
+					</div>
+					<div class="eventname">
+						<label for="name">일정시간</label>
+						<select id="eventTime">
+							<option selected>시간설정</option>
+							<option>07:00</option>
+							<option>07:30</option>
+							<option>08:00</option>
+							<option>08:30</option>
+						</select>
+					</div>
+					<div class="eventdate">
+						<label for="name">인원모집마감일</label>
+						<input type="text" id="datepicker">
+					</div>
+				</div>
+				<div>
+					<textarea class="eventdetail" style="width: 300px; float:left; display: inline-block;">세부내용</textarea>
+				</div> -->
 				
 				
-				<br><br>
-				<label style="float:left;">날짜</label>
-				<input type="text" id="datepicker" style="float:left; width: 150px;">
+	<div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins" style="margin-left: 365px;">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <div class="sub_tit">일정 참가</div><br>
+                    <form method="POST">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">일정 이름</label>
+                                    <input class="input--style-4" type="text" name="first_name" placeholder="IT개발자 모임">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">일정 날짜</label>
+                                    <input class="input--style-4" type="text" id="datepicker">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">일정 시간</label>
+                                    <div class="input-group-icon">
+                                        <select style="width: 275px;">
+                                        	<option>시간을선택해주세요</option>
+                                        	<option>07:00</option>
+                                        	<option selected>07:30</option>
+                                        	<option>08:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">인원모집 마감일</label>
+                                    <input class="input--style-4" type="text" id="datepicker" placeholder="2021-03-12">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">공지사항</label>
+                                    <div class="input-group-icon">
+                                        <textarea placeholder="공지입력" style="width: 275px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">장소정보</label>
+                                    <div class="input-group-icon">
+                                        <textarea placeholder="장소이름 : 스타벅스~  결제금액: 15,000원" style="width: 275px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row row-space">
+                            <div class="col-6">
+                                <div class="input-group">
+                                    <label class="label">참가자 목록</label>
+                                    <div class="input-group-icon">
+                                        <textarea placeholder="현재 참여 인원(O명)" style="width: 585px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="bt-area" style="margin-left: 325px;">
+	                        <div class="">
+	                            <button class="btn btn--radius-2 btn-cre" type="submit" style="float:left;">결제하기</button>
+	                        </div>
+	                         <div class="">
+	                            <button class="btn btn--radius-2 btn-can" type="submit" style="float:left; margin-left: 10px;">취소</button>
+	                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+				
+				
+				
+				
 
 				<div class="spotlight"></div>
 

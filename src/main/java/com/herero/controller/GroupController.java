@@ -50,12 +50,28 @@ public class GroupController {
 
 	}
 	
-	//그룹 이벤트
-	@RequestMapping(value= "/groupEvent", method = {RequestMethod.GET, RequestMethod.POST})
-	public String groupEvent() {
-		System.out.println("/group/groupEvent");
+	//그룹 이벤트(일정) 생성
+	@RequestMapping(value= "/groupEventForm", method = {RequestMethod.GET, RequestMethod.POST})
+	public String groupEventForm() {
+		System.out.println("/group/groupEventForm");
 		
-		return "group/groupEvent";
+		return "group/groupEventForm";
 	}
 
+	//그룹 이벤트(일정) 참가
+		@RequestMapping(value= "/groupEventJoin", method = {RequestMethod.GET, RequestMethod.POST})
+		public String groupEventJoin() {
+			System.out.println("/group/groupEventJoin");
+			
+			return "group/groupEventJoin";
+		}
+		
+	//그룹 이벤트(일정) 참가
+	@RequestMapping(value= "/groupEventPay", method = {RequestMethod.GET, RequestMethod.POST})
+	public String groupEventPay() {
+		System.out.println("/group/groupEventPay");
+		
+		return "group/groupEventPay";
+	}
+	
 }
