@@ -12,6 +12,14 @@ public class UserVo {
 		super();
 	}
 
+	
+	public UserVo(int user_no, String user_name) {
+		super();
+		this.user_no = user_no;
+		this.user_name = user_name;
+	}
+
+
 	public UserVo(int user_no, String user_id, String user_password, String user_name) {
 		super();
 		this.user_no = user_no;

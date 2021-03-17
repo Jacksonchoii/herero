@@ -348,11 +348,14 @@ CREATE TABLE image (
 	uploaded_time DATE /* 등록시간 */
 );
 
+ALTER TABLE image drop COLUMN Group_image_no;
+ALTER TABLE image add (group_image_no number);
+
 ALTER TABLE image
 	ADD
 		CONSTRAINT PK_image
 		PRIMARY KEY (
-			Group_image_no
+			group_image_no
 		);
 
 ALTER TABLE image
@@ -591,3 +594,5 @@ create sequence seq_gallery_no
 increment by 1
 start with 1
 nocache;
+
+commit;

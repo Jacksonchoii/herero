@@ -1,11 +1,13 @@
 package com.herero.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.herero.sevice.UserService;
+import com.herero.vo.UserVo;
 
 @Controller
 @RequestMapping(value="/user")
@@ -28,8 +30,9 @@ public class UserController {
 
 	//로그인
 	@RequestMapping(value="/login" , method = {RequestMethod.GET, RequestMethod.POST})
-	public String login() {
+	public String login(@ModelAttribute UserVo userVo, HttpSession session) {
 		System.out.println("/user/login");
+		System.out.println(userVo.toString());
 		
 		return "";
 	}

@@ -15,7 +15,8 @@ public class UserDao {
 	//로그인
 	public UserVo selectUser(UserVo userVo) {
 		System.out.println("userDao : selectUser()");
+		System.out.println(userVo.toString());
 		
-		return null;
+		return sqlSession.selectOne("user.selectUser", userVo);
 	}
 }

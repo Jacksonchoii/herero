@@ -16,7 +16,7 @@ public class UserService {
 	public UserVo login(UserVo userVo) {
 		System.out.println("UserService : login()");
 		
-		return null;
+		return userDao.selectUser(userVo);
 	}
 		
 }
