@@ -73,7 +73,7 @@
 										위치 - 종각역 12번 출구 도보 5분 <br>
 										특징 - 까페할인, 빔프로젝트 무료대여 <br>
 										<br>
-										<button class="button primary small" style="margin-left: 40px;">대관 예약하기</button>
+										<button class="button primary small" style="margin-left: 40px;"><a href="${pageContext.request.contextPath}/place/placePage">대관 예약하기</a></button>
 									</p>
 							</div>
 						</div>
