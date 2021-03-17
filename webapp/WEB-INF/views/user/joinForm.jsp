@@ -3,8 +3,7 @@
 
 <!DOCTYPE html>
 <head>
-	<title>HERE로</title>
-	<meta charset="UTF-8">
+	<title>HERE로 회원가입</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="${pageContext.request.contextPath}/images/icons/favicon.ico"/>
@@ -32,32 +31,22 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" >
+		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form" action="${pageContext.request.contextPath}/user/login" method="get">
+				<form class="login100-form validate-form">
 					<span class="login100-form-title p-b-49">
-						로그인
+						회원가입
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
-<<<<<<< HEAD
 						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="user_id" placeholder="Type your username">
-=======
-						<span class="label-input100">아이디</span>
-						<input class="input100" type="text" name="username" placeholder="아이디를 입력하세요">
->>>>>>> branch 'master' of https://github.com/Jacksonchoii/herero.git
+						<input class="input100" type="text" name="username" placeholder="Type your username">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-<<<<<<< HEAD
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="user_password" placeholder="Type your password">
-=======
-						<span class="label-input100">비밀번호</span>
-						<input class="input100" type="password" name="pass" placeholder="비밀번호를 입력하세요">
->>>>>>> branch 'master' of https://github.com/Jacksonchoii/herero.git
+						<input class="input100" type="password" name="pass" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 
@@ -69,13 +58,8 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-<<<<<<< HEAD
-							<button class="login100-form-btn" type="submit">
-								Login
-=======
 							<button class="login100-form-btn">
-								로그인
->>>>>>> branch 'master' of https://github.com/Jacksonchoii/herero.git
+								Login
 							</button>
 						</div>
 					</div>

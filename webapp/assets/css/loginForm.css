@@ -6,23 +6,23 @@
 [ FONT ]*/
 
 @font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  font-family: GothicA1-Regular;
+  src: url('../fonts/gothicA1/GothicA1-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  font-family: GothicA1-Medium;
+  src: url('../fonts/gothicA1/GothicA1-Medium.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  font-family: GothicA1-Extra-bold;
+  src: url('../fonts/gothicA1/GothicA1-ExtraBold.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  font-family: GothicA1-SemiBold;
+  src: url('../fonts/gothicA1/GothicA1-SemiBold.ttf'); 
 }
 
 
@@ -39,12 +39,12 @@
 
 body, html {
 	height: 100%;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: GothicA1-Regular;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
+	font-family: GothicA1-Regular;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -136,14 +136,14 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+  font-family: GothicA1-Medium;
   font-size: 14px;
   line-height: 1.5;
   color: #666666;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: GothicA1-Regular;
   font-size: 14px;
   line-height: 1.5;
   color: #333333;
@@ -197,7 +197,7 @@ iframe {
 
 .login100-form-title {
   display: block;
-  font-family: Poppins-Bold;
+  font-family: GothicA1-Bold;
   font-size: 39px;
   color: #333333;
   line-height: 1.2;
@@ -216,7 +216,7 @@ iframe {
 }
 
 .label-input100 {
-  font-family: Poppins-Regular;
+  font-family: GothicA1-Bold;
   font-size: 14px;
   color: #333333;
   line-height: 1.5;
@@ -224,7 +224,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Poppins-Medium;
+  font-family: GothicA1-Regular;
   font-size: 16px;
   color: #333333;
   line-height: 1.2;
@@ -346,7 +346,7 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Poppins-Medium;
+  font-family: GothicA1-Medium;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -393,7 +393,7 @@ iframe {
   right: 2px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: GothicA1-Regular;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;

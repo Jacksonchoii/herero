@@ -342,7 +342,7 @@ nocache;
 
 /* 소모임 이미지 */
 CREATE TABLE image (
-	Group_image_no NUMBER NOT NULL, /* 소모임이미지식별번호 */
+	group_image_no NUMBER NOT NULL, /* 소모임이미지식별번호 */
 	group_no NUMBER, /* 그룹식별번호 */
 	image_name VARCHAR2(200), /* 이미지명 */
 	uploaded_time DATE /* 등록시간 */

@@ -29,7 +29,7 @@
 
 <html>
 	<head>
-		<title>[최강류우]JAVA STUDY</title>
+		<title>[자바야놀자]JAVA STUDY</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/home.css" />
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/slider.css">
@@ -42,7 +42,7 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<span class="logo"><img src="${pageContext.request.contextPath}/images/icons/logo.svg" alt="" /></span>
-						<h1>[최강류우]JAVA STUDY</h1>
+						<h1>[자바야놀자]JAVA STUDY</h1>
 						<p>2021-03-12 || IT/컨텐츠<br />
 						built by <a href="#">@choikangryu</a></p>
 					</header>
