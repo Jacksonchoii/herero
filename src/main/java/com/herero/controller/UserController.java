@@ -26,4 +26,14 @@ public class UserController {
 		return "user/loginForm";
 	}
 
+	//로그인
+	@RequestMapping(value="/login" , method = {RequestMethod.GET, RequestMethod.POST})
+	public String login() {
+		System.out.println("/user/login");
+		
+		return "";
+	}
+	
+	
+	
 }
