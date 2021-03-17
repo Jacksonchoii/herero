@@ -1,710 +1,710 @@
---¼­¿ïÆ¯º°½Ã
+--ì„œìš¸íŠ¹ë³„ì‹œ
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'Á¾·Î±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì¢…ë¡œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¿ë»ê±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ìš©ì‚°êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'µµºÀ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ë„ë´‰êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '³ë¿ø±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ë…¸ì›êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '°­ºÏ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê°•ë¶êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¼ººÏ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì„±ë¶êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'Áß¶û±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì¤‘ë‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'µ¿´ë¹®±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ë™ëŒ€ë¬¸êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¼ºµ¿±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì„±ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '±¤Áø±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê´‘ì§„êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'ÀºÆò±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì€í‰êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¸¶Æ÷±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ë§ˆí¬êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¼­´ë¹®±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì„œëŒ€ë¬¸êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '°­¼­±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê°•ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '°ü¾Ç±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê´€ì•…êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '±¸·Î±¸');
+values(SEQ_REGION_NO.nextval, 1, 'êµ¬ë¡œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '±İÃµ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê¸ˆì²œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, 'µ¿ÀÛ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ë™ì‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¾çÃµ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì–‘ì²œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¿µµîÆ÷±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì˜ë“±í¬êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¼­ÃÊ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì„œì´ˆêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '°­³²±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê°•ë‚¨êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '¼ÛÆÄ±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ì†¡íŒŒêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 1, '°­µ¿±¸');
+values(SEQ_REGION_NO.nextval, 1, 'ê°•ë™êµ¬');
 
 
---°æ±âµµ
+--ê²½ê¸°ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¼ö¿ø½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ìˆ˜ì›ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '°í¾ç½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ê³ ì–‘ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¿ëÀÎ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ìš©ì¸ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¼º³²½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì„±ë‚¨ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ºÎÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ë¶€ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¾È»ê½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì•ˆì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '³²¾çÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ë‚¨ì–‘ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'È­¼º½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'í™”ì„±ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¾È¾ç½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì•ˆì–‘ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ÆòÅÃ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'í‰íƒì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ÀÇÁ¤ºÎ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì˜ì •ë¶€ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ÆÄÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'íŒŒì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '½ÃÈï½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì‹œí¥ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '±èÆ÷½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ê¹€í¬ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '±¤¸í½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ê´‘ëª…ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '±¤ÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ê´‘ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '±ºÆ÷½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'êµ°í¬ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¿À»ê½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì˜¤ì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ÀÌÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì´ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¾çÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì–‘ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '±¸¸®½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'êµ¬ë¦¬ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¾È¼º½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì•ˆì„±ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ÇÏ³²½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'í•˜ë‚¨ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'ÀÇ¿Õ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì˜ì™•ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'Æ÷Ãµ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'í¬ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¿©ÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ì—¬ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '°úÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ê³¼ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, 'µ¿µÎÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 2, 'ë™ë‘ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '¾çÆò±º');
+values(SEQ_REGION_NO.nextval, 2, 'ì–‘í‰êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 2, '°¡Æò±º');
+values(SEQ_REGION_NO.nextval, 2, 'ê°€í‰êµ°');
 
 
---ÀÎÃµ±¤¿ª½Ã
+--ì¸ì²œê´‘ì—­ì‹œ
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, 'µ¿±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '¹ÌÃßÈ¦±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ë¯¸ì¶”í™€êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '¿¬¼ö±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ì—°ìˆ˜êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '³²µ¿±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ë‚¨ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, 'ºÎÆò±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ë¶€í‰êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '°è¾ç±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ê³„ì–‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '¼­±¸');
+values(SEQ_REGION_NO.nextval, 3, 'ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '°­È­±º');
+values(SEQ_REGION_NO.nextval, 3, 'ê°•í™”êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 3, '¿ËÁø±º');
+values(SEQ_REGION_NO.nextval, 3, 'ì˜¹ì§„êµ°');
 
 
---°­¿øµµ
+--ê°•ì›ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 4, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'ÃáÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'ì¶˜ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '¿øÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'ì›ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '°­¸ª½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'ê°•ë¦‰ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'ÅÂ¹é½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'íƒœë°±ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '»ïÃ´½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'ì‚¼ì²™ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'µ¿ÇØ½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'ë™í•´ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '¼ÓÃÊ½Ã');
+values(SEQ_REGION_NO.nextval, 4, 'ì†ì´ˆì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '°í¼º±º');
+values(SEQ_REGION_NO.nextval, 4, 'ê³ ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '¾ç¾ç±º');
+values(SEQ_REGION_NO.nextval, 4, 'ì–‘ì–‘êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'Ã¶¿ø±º');
+values(SEQ_REGION_NO.nextval, 4, 'ì² ì›êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'È­Ãµ±º');
+values(SEQ_REGION_NO.nextval, 4, 'í™”ì²œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'ÀÎÁ¦±º');
+values(SEQ_REGION_NO.nextval, 4, 'ì¸ì œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '¾ç±¸±º');
+values(SEQ_REGION_NO.nextval, 4, 'ì–‘êµ¬êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, '¿µ¿ù±º');
+values(SEQ_REGION_NO.nextval, 4, 'ì˜ì›”êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'È«Ãµ±º');
+values(SEQ_REGION_NO.nextval, 4, 'í™ì²œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'Á¤¼±±º');
+values(SEQ_REGION_NO.nextval, 4, 'ì •ì„ êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'ÆòÃ¢±º');
+values(SEQ_REGION_NO.nextval, 4, 'í‰ì°½êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 4, 'È¾¼º±º');
+values(SEQ_REGION_NO.nextval, 4, 'íš¡ì„±êµ°');
 
---¼¼Á¾Æ¯º°ÀÚÄ¡½Ã(±âÃÊÀÚÄ¡±¸X)
+--ì„¸ì¢…íŠ¹ë³„ìì¹˜ì‹œ(ê¸°ì´ˆìì¹˜êµ¬X)
 
---´ëÀü±¤¿ª½Ã
+--ëŒ€ì „ê´‘ì—­ì‹œ
 insert INTO region
-values(SEQ_REGION_NO.nextval, 6, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 6, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 6, 'µ¿±¸');
+values(SEQ_REGION_NO.nextval, 6, 'ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 6, '¼­±¸');
+values(SEQ_REGION_NO.nextval, 6, 'ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 6, '´ë´ö±¸');
+values(SEQ_REGION_NO.nextval, 6, 'ëŒ€ë•êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 6, 'À¯¼º±¸');
+values(SEQ_REGION_NO.nextval, 6, 'ìœ ì„±êµ¬');
 
---ÃæÃ»ºÏµµ
+--ì¶©ì²­ë¶ë„
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'Ã»ÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 7, 'ì²­ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'ÃæÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 7, 'ì¶©ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'Á¦Ãµ½Ã');
+values(SEQ_REGION_NO.nextval, 7, 'ì œì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, '´Ü¾ç±º');
+values(SEQ_REGION_NO.nextval, 7, 'ë‹¨ì–‘êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, '±«»ê±º');
+values(SEQ_REGION_NO.nextval, 7, 'ê´´ì‚°êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'º¸Àº±º');
+values(SEQ_REGION_NO.nextval, 7, 'ë³´ì€êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, '¿ÁÃµ±º');
+values(SEQ_REGION_NO.nextval, 7, 'ì˜¥ì²œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, '¿µµ¿±º');
+values(SEQ_REGION_NO.nextval, 7, 'ì˜ë™êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'À½¼º±º');
+values(SEQ_REGION_NO.nextval, 7, 'ìŒì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'ÁøÃµ±º');
+values(SEQ_REGION_NO.nextval, 7, 'ì§„ì²œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 7, 'ÁõÆò±º');
+values(SEQ_REGION_NO.nextval, 7, 'ì¦í‰êµ°');
 
---ÃæÃ»³²µµ
+--ì¶©ì²­ë‚¨ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, 'Ãµ¾È½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ì²œì•ˆì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '¾Æ»ê½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ì•„ì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, 'º¸·É½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ë³´ë ¹ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '°øÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ê³µì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '¼­»ê½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ì„œì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '³í»ê½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ë…¼ì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '°è·æ½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ê³„ë£¡ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '´çÁø½Ã');
+values(SEQ_REGION_NO.nextval, 8, 'ë‹¹ì§„ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '±İ»ê±º');
+values(SEQ_REGION_NO.nextval, 8, 'ê¸ˆì‚°êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, 'ºÎ¿©±º');
+values(SEQ_REGION_NO.nextval, 8, 'ë¶€ì—¬êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '¼­Ãµ±º');
+values(SEQ_REGION_NO.nextval, 8, 'ì„œì²œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, 'Ã»¾ç±º');
+values(SEQ_REGION_NO.nextval, 8, 'ì²­ì–‘êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, 'È«¼º±º');
+values(SEQ_REGION_NO.nextval, 8, 'í™ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, '¿¹»ê±º');
+values(SEQ_REGION_NO.nextval, 8, 'ì˜ˆì‚°êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 8, 'ÅÂ¾È±º');
+values(SEQ_REGION_NO.nextval, 8, 'íƒœì•ˆêµ°');
 
---ºÎ»ê±¤¿ª½Ã
+--ë¶€ì‚°ê´‘ì—­ì‹œ
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '°­¼­±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ê°•ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '±İÁ¤±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ê¸ˆì •êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '³²±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ë‚¨êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, 'µ¿±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, 'µ¿·¡±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ë™ë˜êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, 'ºÎ»êÁø±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ë¶€ì‚°ì§„êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, 'ºÏ±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ë¶êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '»ç»ó±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ì‚¬ìƒêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '»çÇÏ±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ì‚¬í•˜êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '¼­±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '¼ö¿µ±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ìˆ˜ì˜êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '¿¬Á¦±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ì—°ì œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '¿µµµ±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ì˜ë„êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 9, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, 'ÇØ¿î´ë±¸');
+values(SEQ_REGION_NO.nextval, 9, 'í•´ìš´ëŒ€êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 9, '±âÀå±º');
+values(SEQ_REGION_NO.nextval, 9, 'ê¸°ì¥êµ°');
 
---´ë±¸±¤¿ª½Ã
+--ëŒ€êµ¬ê´‘ì—­ì‹œ
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, 'µ¿±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, '¼­±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, '³²±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ë‚¨êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, 'ºÏ±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ë¶êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, '¼ö¼º±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ìˆ˜ì„±êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, '´Ş¼­±¸');
+values(SEQ_REGION_NO.nextval, 10, 'ë‹¬ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 10, '´Ş¼º±º');
+values(SEQ_REGION_NO.nextval, 10, 'ë‹¬ì„±êµ°');
 
---°æ»ó³²µµ
+--ê²½ìƒë‚¨ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'Ã¢¿ø½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ì°½ì›ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '±èÇØ½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ê¹€í•´ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'ÁøÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ì§„ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '°ÅÁ¦½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ê±°ì œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'Åë¿µ½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'í†µì˜ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '»çÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ì‚¬ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '¹Ğ¾ç½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ë°€ì–‘ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '¾ç»ê½Ã');
+values(SEQ_REGION_NO.nextval, 11, 'ì–‘ì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '°í¼º±º');
+values(SEQ_REGION_NO.nextval, 11, 'ê³ ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '°ÅÃ¢±º');
+values(SEQ_REGION_NO.nextval, 11, 'ê±°ì°½êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '³²ÇØ±º');
+values(SEQ_REGION_NO.nextval, 11, 'ë‚¨í•´êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, '»êÃ»±º');
+values(SEQ_REGION_NO.nextval, 11, 'ì‚°ì²­êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'ÀÇ·É±º');
+values(SEQ_REGION_NO.nextval, 11, 'ì˜ë ¹êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'Ã¢³ç±º');
+values(SEQ_REGION_NO.nextval, 11, 'ì°½ë…•êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'ÇÏµ¿±º');
+values(SEQ_REGION_NO.nextval, 11, 'í•˜ë™êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'ÇÔ¾È±º');
+values(SEQ_REGION_NO.nextval, 11, 'í•¨ì•ˆêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'ÇÔ¾ç±º');
+values(SEQ_REGION_NO.nextval, 11, 'í•¨ì–‘êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 11, 'ÇÕÃµ±º');
+values(SEQ_REGION_NO.nextval, 11, 'í•©ì²œêµ°');
 
---°æ»óºÏµµ
+--ê²½ìƒë¶ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, 'Æ÷Ç×½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'í¬í•­ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '°æÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ê²½ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '±¸¹Ì½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'êµ¬ë¯¸ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '°æ»ê½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ê²½ì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '±èÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ê¹€ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿µÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ì˜ì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¾Èµ¿½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ì•ˆë™ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿µÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ì˜ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '»óÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ìƒì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¹®°æ½Ã');
+values(SEQ_REGION_NO.nextval, 12, 'ë¬¸ê²½ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿ïÁø±º');
+values(SEQ_REGION_NO.nextval, 12, 'ìš¸ì§„êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿µ´ö±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì˜ë•êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿ï¸ª±º');
+values(SEQ_REGION_NO.nextval, 12, 'ìš¸ë¦‰êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, 'Ä¥°î±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì¹ ê³¡êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¼ºÁÖ±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì„±ì£¼êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '°í·É±º');
+values(SEQ_REGION_NO.nextval, 12, 'ê³ ë ¹êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, 'Ã»µµ±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì²­ë„êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '±ºÀ§±º');
+values(SEQ_REGION_NO.nextval, 12, 'êµ°ìœ„êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, 'ÀÇ¼º±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì˜ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿¹Ãµ±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì˜ˆì²œêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, 'ºÀÈ­±º');
+values(SEQ_REGION_NO.nextval, 12, 'ë´‰í™”êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, 'Ã»¼Û±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì²­ì†¡êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 12, '¿µ¾ç±º');
+values(SEQ_REGION_NO.nextval, 12, 'ì˜ì–‘êµ°');
 
---¿ï»ê±¤¿ª½Ã
+--ìš¸ì‚°ê´‘ì—­ì‹œ
 insert INTO region
-values(SEQ_REGION_NO.nextval, 13, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 13, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 13, 'Áß±¸');
+values(SEQ_REGION_NO.nextval, 13, 'ì¤‘êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 13, '³²±¸');
+values(SEQ_REGION_NO.nextval, 13, 'ë‚¨êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 13, 'µ¿±¸');
+values(SEQ_REGION_NO.nextval, 13, 'ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 13, 'ºÏ±¸');
+values(SEQ_REGION_NO.nextval, 13, 'ë¶êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 13, '¿ïÁÖ±º');
+values(SEQ_REGION_NO.nextval, 13, 'ìš¸ì£¼êµ°');
 
---±¤ÁÖ±¤¿ª½Ã
+--ê´‘ì£¼ê´‘ì—­ì‹œ
 insert INTO region
-values(SEQ_REGION_NO.nextval, 14, '³²±¸');
+values(SEQ_REGION_NO.nextval, 14, 'ë‚¨êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 14, 'µ¿±¸');
+values(SEQ_REGION_NO.nextval, 14, 'ë™êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 14, 'ºÏ±¸');
+values(SEQ_REGION_NO.nextval, 14, 'ë¶êµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 14, '¼­±¸');
+values(SEQ_REGION_NO.nextval, 14, 'ì„œêµ¬');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 14, '±¤»ê±¸');
+values(SEQ_REGION_NO.nextval, 14, 'ê´‘ì‚°êµ¬');
 
---Àü¶ó³²µµ
+--ì „ë¼ë‚¨ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¸ñÆ÷½Ã');
+values(SEQ_REGION_NO.nextval, 15, 'ëª©í¬ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¿©¼ö½Ã');
+values(SEQ_REGION_NO.nextval, 15, 'ì—¬ìˆ˜ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¼øÃµ½Ã');
+values(SEQ_REGION_NO.nextval, 15, 'ìˆœì²œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '³ªÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 15, 'ë‚˜ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '±¤¾ç½Ã');
+values(SEQ_REGION_NO.nextval, 15, 'ê´‘ì–‘ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '´ã¾ç±º');
+values(SEQ_REGION_NO.nextval, 15, 'ë‹´ì–‘êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '°î¼º±º');
+values(SEQ_REGION_NO.nextval, 15, 'ê³¡ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '±¸·Ê±º');
+values(SEQ_REGION_NO.nextval, 15, 'êµ¬ë¡€êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '°íÈï±º');
+values(SEQ_REGION_NO.nextval, 15, 'ê³ í¥êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'º¸¼º±º');
+values(SEQ_REGION_NO.nextval, 15, 'ë³´ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'È­¼ø±º');
+values(SEQ_REGION_NO.nextval, 15, 'í™”ìˆœêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'ÀåÈï±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì¥í¥êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '°­Áø±º');
+values(SEQ_REGION_NO.nextval, 15, 'ê°•ì§„êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'ÇØ³²±º');
+values(SEQ_REGION_NO.nextval, 15, 'í•´ë‚¨êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¿µ¾Ï±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì˜ì•”êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¹«¾È±º');
+values(SEQ_REGION_NO.nextval, 15, 'ë¬´ì•ˆêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'ÇÔÆò±º');
+values(SEQ_REGION_NO.nextval, 15, 'í•¨í‰êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¿µ±¤±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì˜ê´‘êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'Àå¼º±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì¥ì„±êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '¿Ïµµ±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì™„ë„êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, 'Áøµµ±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì§„ë„êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 15, '½Å¾È±º');
+values(SEQ_REGION_NO.nextval, 15, 'ì‹ ì•ˆêµ°');
 
---Àü¶óºÏµµ
+--ì „ë¼ë¶ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'ÀüÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'ì „ì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'ÀÍ»ê½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'ìµì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '±º»ê½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'êµ°ì‚°ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '±èÁ¦½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'ê¹€ì œì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '³²¿ø½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'ë‚¨ì›ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'Á¤À¾½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'ì •ìì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '¿ÏÁÖ±º');
+values(SEQ_REGION_NO.nextval, 16, 'ì™„ì£¼êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'ÀÓ½Ç±º');
+values(SEQ_REGION_NO.nextval, 16, 'ì„ì‹¤êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '¹«ÁÖ±º');
+values(SEQ_REGION_NO.nextval, 16, 'ë¬´ì£¼êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'Áø¾È±º');
+values(SEQ_REGION_NO.nextval, 16, 'ì§„ì•ˆêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'Àå¼ö±º');
+values(SEQ_REGION_NO.nextval, 16, 'ì¥ìˆ˜êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, 'ºÎ¾È±º');
+values(SEQ_REGION_NO.nextval, 16, 'ë¶€ì•ˆêµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '¼øÃ¢±º');
+values(SEQ_REGION_NO.nextval, 16, 'ìˆœì°½êµ°');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '°íÃ¢±º');
+values(SEQ_REGION_NO.nextval, 16, 'ê³ ì°½êµ°');
 
---Á¦ÁÖÆ¯º°ÀÚÄ¡µµ
+--ì œì£¼íŠ¹ë³„ìì¹˜ë„
 insert INTO region
-values(SEQ_REGION_NO.nextval, 17, 'Á¦ÁÖ½Ã');
+values(SEQ_REGION_NO.nextval, 17, 'ì œì£¼ì‹œ');
 
 insert INTO region
-values(SEQ_REGION_NO.nextval, 16, '¼­±ÍÆ÷½Ã');
+values(SEQ_REGION_NO.nextval, 16, 'ì„œê·€í¬ì‹œ');

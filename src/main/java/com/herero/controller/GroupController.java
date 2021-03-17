@@ -25,7 +25,7 @@ public class GroupController {
 	}
 	
 	//소모임 메인
-	@RequestMapping(value="/main", method = {RequestMethod.GET,RequestMethod.POST})
+	@RequestMapping(value="/groupMain", method = {RequestMethod.GET,RequestMethod.POST})
 	public String groupMain() {
 		System.out.println("/group/groupMain");
 		

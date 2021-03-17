@@ -1,50 +1,50 @@
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'¼­¿ïÆ¯º°½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ì„œìš¸íŠ¹ë³„ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'°æ±âµµ');
+values(SEQ_PROVINCE_NO.nextval,'ê²½ê¸°ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'ÀÎÃµ±¤¿ª½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ì¸ì²œê´‘ì—­ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'°­¿øµµ');
+values(SEQ_PROVINCE_NO.nextval,'ê°•ì›ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'¼¼Á¾Æ¯º°ÀÚÄ¡½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ì„¸ì¢…íŠ¹ë³„ìì¹˜ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'´ëÀü±¤¿ª½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ëŒ€ì „ê´‘ì—­ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'ÃæÃ»ºÏµµ');
+values(SEQ_PROVINCE_NO.nextval,'ì¶©ì²­ë¶ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'ÃæÃ»³²µµ');
+values(SEQ_PROVINCE_NO.nextval,'ì¶©ì²­ë‚¨ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'ºÎ»ê±¤¿ª½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ë¶€ì‚°ê´‘ì—­ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'´ë±¸±¤¿ª½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ëŒ€êµ¬ê´‘ì—­ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'°æ»ó³²µµ');
+values(SEQ_PROVINCE_NO.nextval,'ê²½ìƒë‚¨ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'°æ»óºÏµµ');
+values(SEQ_PROVINCE_NO.nextval,'ê²½ìƒë¶ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'¿ï»ê±¤¿ª½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ìš¸ì‚°ê´‘ì—­ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'±¤ÁÖ±¤¿ª½Ã');
+values(SEQ_PROVINCE_NO.nextval,'ê´‘ì£¼ê´‘ì—­ì‹œ');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'Àü¶ó³²µµ');
+values(SEQ_PROVINCE_NO.nextval,'ì „ë¼ë‚¨ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'Àü¶óºÏµµ');
+values(SEQ_PROVINCE_NO.nextval,'ì „ë¼ë¶ë„');
 
 insert INTO province
-values(SEQ_PROVINCE_NO.nextval,'Á¦ÁÖÆ¯º°ÀÚÄ¡µµ');
+values(SEQ_PROVINCE_NO.nextval,'ì œì£¼íŠ¹ë³„ìì¹˜ë„');
