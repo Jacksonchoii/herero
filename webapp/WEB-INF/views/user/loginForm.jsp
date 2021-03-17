@@ -40,24 +40,32 @@
 					<div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
 						<span class="label-input100">Username</span> 
 						
-						<span class="label-input100">아이디</span> <input class="input100" type="text" name="username" placeholder="아이디를 입력하세요">
+						<span class="label-input100">아이디</span> 
+						<input class="input100" type="text" name="user_id" placeholder="아이디를 입력하세요">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
 						<span class="label-input100">Password</span> 
-						<span class="label-input100">비밀번호</span> <input class="input100" type="password" name="pass" placeholder="비밀번호를 입력하세요">
+						<span class="label-input100">비밀번호</span>
+						<input class="input100" type="password" name="user_password" placeholder="비밀번호를 입력하세요">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
+
+					<!-- 로그인 실패 메시지 -->
+					<c:if test="${param.result eq 'fail'}">
+					<p>로그인에 실패했습니다. 확인 후 다시 로그인 해주세요</p>
+					</c:if>
 
 					<div class="text-right p-t-8 p-b-21">
 						<a href="#"> 회원가입 </a> <a href="#">비밀번호 찾기</a>
 					</div>
 
+
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">로그인 </button>
+							<button type="submit" class="login100-form-btn">로그인 </button>
 						</div>
 					</div>
 

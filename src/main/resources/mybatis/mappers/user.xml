@@ -7,11 +7,11 @@
 	<!-- 로그인 -->
 	<select id="selectUser" parameterType="com.herero.vo.UserVo" resultType="com.herero.vo.UserVo">
 		<![CDATA[
-			select	user_no
+			select	user_no,
 					user_name
 			from users
-			where id = #{id}
-			and password = #{password}			
+			where user_id = #{user_id}
+			and user_password = #{user_password}			
 		]]>
 	</select>
 	

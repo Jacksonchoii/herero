@@ -2,11 +2,13 @@ package com.herero.controller;
 
 import javax.servlet.http.HttpSession;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.herero.sevice.UserService;
 import com.herero.vo.UserVo;
 
 @Controller
@@ -14,7 +16,9 @@ import com.herero.vo.UserVo;
 public class UserController {
 	
 	//필드
-
+	@Autowired
+	private UserService userService;
+	
 	//생성자
 	//g.s 생략
 	
@@ -34,9 +38,30 @@ public class UserController {
 		System.out.println("/user/login");
 		System.out.println(userVo.toString());
 		
-		return "";
+		UserVo authUser = userService.login(userVo);
+		
+		if(authUser == null) {//로그인 실패
+			System.out.println("로그인 실패");
+			return "redirect:/user/loginForm?result=fail";
+		
+		} else {//로그인 성공
+			System.out.println("로그인 성공");
+			
+			session.setAttribute("authUser", authUser);
+			return "redirect:/";
+		}
 	}
 	
+	//로그아웃
+	@RequestMapping(value="/logout" , method = {RequestMethod.GET, RequestMethod.POST})
+	public String logout(HttpSession session) {
+		System.out.println("/user/logout");
+		
+		session.removeAttribute("authUser");
+		session.invalidate();
+		
+		return "redirect:/";
+	}
 	
 	
 }
