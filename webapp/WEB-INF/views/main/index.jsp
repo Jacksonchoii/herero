@@ -19,8 +19,8 @@
 		<section id="banner">
 			<h2>HERERO</h2>
 			<p>
-				소모임 개설에서부터 오프라인 대관예약까지 이 모든 걸 한 번에<br> 해결하고 싶은 사람들 모두
-				여기(HERE)로!
+				소모임 개설에서부터 오프라인 대관예약까지 이 모든 걸 한 번에<br>
+				해결하고 싶은 사람들 모두 여기(HERE)로!
 			</p>
 			<ul class="actions special">
 				<li><a href="${pageContext.request.contextPath}/group/groupForm" class="button primary">소모임 만들기</a></li>
@@ -34,40 +34,34 @@
 			<section class="box special">
 				<header class="major">
 					<h2>'HERE로'에 처음 온 당신을 위한 안내서</h2>
-					<p>소모임 오프라인 대관예약  4Step으로 간단하게 알려드립니다.</p>
+					<p>히어로에서 소모임 완벽정복을 위한 4STEP 안내서</p>
 				</header>
 
 				<section class="box special features">
 					<div class="features-row">
 						<section>
 							<span class="icon solid major fa-bolt accent2"></span>
-							<h3>참석인원 확인하기</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed
-								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-								accumsan dolore magna aliquam veroeros.</p>
+							<h3>STEP1. 회원가입하기</h3>
+							<p style="text-align: justify;">'HERE로' 서비는 회원가입을 한 고객을 대상으로 서비스를 하고 있습니다.
+								회원가입에는 어떠한 비용도 발생하지 않으며 간단작성으로 가입을 완료할 수 있습니다.</p>
 						</section>
 						<section>
 							<span class="icon solid major fa-chart-area accent3"></span>
-							<h3>대관정보 검색</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed
-								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-								accumsan dolore magna aliquam veroeros.</p>
+							<h3>STEP2. 소모임 가입하기</h3>
+							<p style="text-align: justify;">소모임에 대해 검색해보고 원하는 소모임에 들어가 가입하기를 누르기!</p>
 						</section>
 					</div>
 					<div class="features-row">
 						<section>
 							<span class="icon solid major fa-cloud accent4"></span>
-							<h3>대관예약하기</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed
-								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-								accumsan dolore magna aliquam veroeros.</p>
+							<h3>STEP3. 소모임 만들기</h3>
+							<p style="text-align: justify;">원하는 소모임이 없다면 소모임 만들기를 눌러서 자신의 소모임에 대해 소개글을 작성하고 소모임 만들기!</p>
 						</section>
 						<section>
 							<span class="icon solid major fa-lock accent5"></span>
-							<h3>결제하기</h3>
-							<p>Integer volutpat ante et accumsan commophasellus sed
-								aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-								accumsan dolore magna aliquam veroeros.</p>
+							<h3>STEP4. 대관예약하기</h3>
+							<p style="text-align: justify;">대관예약에 들어가서 위치와 인원에 맞는 대관을 찾아 예약하기!
+							      대관 예약은 예약일로부터 24시간 내에 결제가 이루어지지 않으면 취소됩니다.</p>
 						</section>
 					</div>
 				</section>

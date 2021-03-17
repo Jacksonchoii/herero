@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
 
 
 
@@ -106,7 +106,7 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: 'Noto Sans KR', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
