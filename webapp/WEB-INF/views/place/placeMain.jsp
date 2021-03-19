@@ -7,7 +7,7 @@
 <title>대관 메인</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/place.css" />
-<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/page.css" nonce="">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/page.css">
 </head>
 <body class="landing is-preload">
 	<div id="page-wrapper">
@@ -59,6 +59,29 @@
 
 				<br> <br>
 			
+			
+			<c:forEach items="${placeList}" var="guestbookVo">
+					<div class="row" style="margin-bottom: 50px;">
+					<div class="col-12 col-12-narmal">
+						<div style="border: 2px solid #e5e5e5; border-radius: 22px; height:273px;">
+							<img width="35%" height="270px" src="${pageContext.request.contextPath}/images/pic01.jpg" alt="" style="float: left; margin-right: 30px; border-top-left-radius: 20px; border-bottom-left-radius: 19px;" />
+							<div class="actions special" style="padding: 20px;">
+								<h4><a href="${pageContext.request.contextPath }/place/placePage?no=${placeVo.place_no}">${placeVo.place_name}</a></h4>
+								<br>
+								<p style="font-size: 14px; text-align: justify;">
+										분류 - ${placeVo.place_category} <br> 
+										인원 - 6-8인실/10-15인실<br>
+										위치 - ${placeVo.place_address} <br>
+										특징 - 까페할인, 빔프로젝트 무료대여 <br>
+										<br>
+										<button class="button primary small" style="margin-left: 40px;"><a href="${pageContext.request.contextPath}/place/placePage?no=${placeVo.place_no}">대관 예약하기</a></button>
+									</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					<!-- //guestRead -->
+				</c:forEach>
 			
 			<div class="row" style="margin-bottom: 50px;">
 					<div class="col-12 col-12-narmal">

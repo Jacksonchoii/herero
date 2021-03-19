@@ -6,5 +6,6 @@
 	<mappers>
 		<mapper resource="mybatis/mappers/user.xml" />
 		<mapper resource="mybatis/mappers/group.xml" />
+		<mapper resource="mybatis/mappers/place.xml" />
 	</mappers>
 </configuration>
