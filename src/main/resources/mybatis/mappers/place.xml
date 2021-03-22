@@ -2,19 +2,20 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="user">
+<mapper namespace="place">
 	
 	<!-- 리스트 전체 가져오기 -->
 	<select id="selectList" resultType="com.herero.vo.PlaceVo">
 		<![CDATA[
-			select 	place_no,
-        			business_no,
-					place_name,
-					palce_address,
-					place_content,
-					place_image,
-					place_category
-			from place
+			select 	p.place_no,
+        			b.business_no ,
+					p.place_name,
+					p.palce_address,
+					p.place_content,
+					p.place_image,
+					p.place_category
+			from place p, business b
+			where p.business_no = b.business_no
 			order by no desc
 		]]>
 	</select>

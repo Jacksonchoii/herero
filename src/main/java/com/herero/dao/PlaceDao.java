@@ -17,7 +17,7 @@ public class PlaceDao {
 	//대관리스트
 	public List<PlaceVo> selectList(){
 		System.out.println("[placeDao] selectList()");
-		return sqlsession.selectList("place.selectList()");
+		return sqlsession.selectList("place.selectList");
 	}
 
 }

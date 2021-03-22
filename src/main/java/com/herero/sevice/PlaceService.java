@@ -14,7 +14,7 @@ public class PlaceService {
 	@Autowired
 	private PlaceDao placeDao;
 	
-	public List<PlaceVo> getList() {
+	public List<PlaceVo> getPlaceList() {
 		System.out.println("[placeService] getList()");
 
 		return placeDao.selectList();

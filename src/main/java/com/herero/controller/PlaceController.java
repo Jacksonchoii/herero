@@ -20,9 +20,11 @@ public class PlaceController {
 	
 	// 대관메인
 	@RequestMapping(value = "/main" , method = {RequestMethod.GET, RequestMethod.POST})
-	public String Main() {
+	public String Main(Model model) {
 		System.out.println("/place/main");
 		
+		List<PlaceVo> placeList = placeService.getPlaceList();
+		model.addAttribute("placeList", placeList);
 		return "place/placeMain";
 	}
 	
@@ -32,16 +34,5 @@ public class PlaceController {
 		System.out.println("/place/placePage");
 		
 		return "place/placePage";
-	}
-	
-	
-	//대관 리스트
-	@RequestMapping(value="/list", method = RequestMethod.GET)
-	public String placeList(Model model) {
-		System.out.println("[placeController] /list");
-		
-		List<PlaceVo> placeList = placeService.getList();
-		model.addAttribute("placeList", placeList);
-		return "place/placeMain";
 	}
 }
