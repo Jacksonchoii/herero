@@ -1,5 +1,7 @@
 package com.herero.vo;
 
+import java.util.List;
+
 public class PlaceVo {
 
 	private int placeNo;
@@ -10,7 +12,7 @@ public class PlaceVo {
 	private String placeImage;
 	private String placeCategory;
 	
-	
+	private List<RoomVo> roomList;
 	
 	public PlaceVo() {
 		super();
@@ -112,6 +114,17 @@ public class PlaceVo {
 
 	public void setPlaceCategory(String placeCategory) {
 		this.placeCategory = placeCategory;
+	}
+	
+	
+	public List<RoomVo> getRoomList() {
+		return roomList;
+	}
+
+
+
+	public void setRoomList(List<RoomVo> roomList) {
+		this.roomList = roomList;
 	}
 
 

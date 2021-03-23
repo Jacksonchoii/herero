@@ -548,49 +548,34 @@ increment by 1
 start with 1
 nocache;
 
-/* 갤러리 */
-CREATE TABLE gallery (
-	gallery_no NUMBER NOT NULL, /* 갤러리글식별번호 */
-	group_no NUMBER NOT NULL, /* 그룹식별번호 */
-	groupmember_no NUMBER, /* 소모임회원식별번호 */
-	title VARCHAR2(200) NOT NULL, /* 제목 */
-	hit NUMBER, /* 조회수 */
-	reg_date DATE, /* 등록일 */
-	content VARCHAR2(4000), /* 코멘트 */
-	filePath VARCHAR2(500), /* 파일경로 */
-	orgName VARCHAR2(200), /* 오리지날파일명 */
-	fileSize NUMBER /* 파일사이즈 */
+/* 장소 이미지 */
+CREATE TABLE pImage (
+	place_image_no NUMBER NOT NULL, /* 장소이미지식별번호 */
+	place_no NUMBER, /* 장소식별번호 */
+	image_name VARCHAR2(100), /* 이미지이름 */
+	first_image NUMBER, /* 대표이미지 */
+	reg_time DATE /* 등록시간 */
 );
 
-ALTER TABLE gallery
+ALTER TABLE pImage
 	ADD
-		CONSTRAINT PK_gallery
+		CONSTRAINT PK_pImage
 		PRIMARY KEY (
-			gallery_no
+			place_image_no
 		);
 
-ALTER TABLE gallery
+ALTER TABLE pImage
 	ADD
-		CONSTRAINT FK_groups_TO_gallery
+		CONSTRAINT FK_place_TO_pImage
 		FOREIGN KEY (
-			group_no
+			place_no
 		)
-		REFERENCES groups (
-			group_no
+		REFERENCES place (
+			place_no
 		);
 
-ALTER TABLE gallery
-	ADD
-		CONSTRAINT FK_groupmember_TO_gallery
-		FOREIGN KEY (
-			groupmember_no
-		)
-		REFERENCES groupmember (
-			groupmember_no
-		);
-        
---gallery 시퀀스 생성
-create sequence seq_gallery_no
+--장소이미지 시퀀스 생성
+create sequence seq_pImage_no
 increment by 1
 start with 1
 nocache;

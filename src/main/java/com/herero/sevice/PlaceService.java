@@ -14,10 +14,19 @@ public class PlaceService {
 	@Autowired
 	private PlaceDao placeDao;
 	
+	//대관 메인 리스트
 	public List<PlaceVo> getPlaceList() {
 		System.out.println("[placeService] getList()");
 
 		return placeDao.selectList();
 	}
+	
+	//게시글 읽기
+	public PlaceVo getPage(int no) {
+		System.out.println("[placeService] placePage()");
+
+		return placeDao.placePage(no);
+	}
+	
 
 }
