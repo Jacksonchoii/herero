@@ -59,7 +59,7 @@
 										<td>계약금</td>
 									</tr>
 									<tr>
-										<td>6인</td>
+										<td>${roomList.roomMember}인</td>
 										<td>40000원</td>
 										<td>4000원</td>
 									</tr>

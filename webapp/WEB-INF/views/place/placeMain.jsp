@@ -72,8 +72,7 @@
 									<h4><a href="${pageContext.request.contextPath}/place/placePage?no=${placeVo.placeNo}">${placeVo.placeName}</a></h4>
 									<br>
 									<p style="font-size: 14px; text-align: justify;">
-										분류 - ${placeVo.placeCategory} <br> 인원 - 8인 이상<br> 위치 -
-										${placeVo.placeAddress} <br> 가격 - 20000원/시간 <br> <br>
+										분류 - ${placeVo.placeCategory} <br> 인원 - <br> 위치 - ${placeVo.placeAddress} <br> 가격 - 20000원/시간 <br> <br>
 										<button class="button primary small" ssstyle="margin-left: 40px;">
 											<a href="${pageContext.request.contextPath}/place/placePage?no=${placeVo.placeNo}">대관 예약하기</a>
 										</button>

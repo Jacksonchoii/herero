@@ -9,10 +9,11 @@ public class PlaceVo {
 	private String placeName;
 	private String placeAddress;
 	private String placeContent;
-	private String placeImage;
 	private String placeCategory;
 	
 	private List<RoomVo> roomList;
+	
+	private List<PImageVo> imageList;
 	
 	public PlaceVo() {
 		super();
@@ -21,16 +22,21 @@ public class PlaceVo {
 
 
 	public PlaceVo(int placeNo, int businessNo, String placeName, String placeAddress, String placeContent,
-			String placeImage, String placeCategory) {
+			String placeCategory, List<RoomVo> roomList, List<PImageVo> imageList) {
 		super();
 		this.placeNo = placeNo;
 		this.businessNo = businessNo;
 		this.placeName = placeName;
 		this.placeAddress = placeAddress;
 		this.placeContent = placeContent;
-		this.placeImage = placeImage;
 		this.placeCategory = placeCategory;
+		this.roomList = roomList;
+		this.imageList = imageList;
 	}
+
+
+
+
 
 
 
@@ -93,19 +99,6 @@ public class PlaceVo {
 	}
 
 
-
-	public String getPlaceImage() {
-		return placeImage;
-	}
-
-
-
-	public void setPlaceImage(String placeImage) {
-		this.placeImage = placeImage;
-	}
-
-
-
 	public String getPlaceCategory() {
 		return placeCategory;
 	}
@@ -126,14 +119,24 @@ public class PlaceVo {
 	public void setRoomList(List<RoomVo> roomList) {
 		this.roomList = roomList;
 	}
+	
+	
+	public List<PImageVo> getImageList() {
+		return imageList;
+	}
+
+
+
+	public void setImageList(List<PImageVo> imageList) {
+		this.imageList = imageList;
+	}
 
 
 
 	@Override
 	public String toString() {
 		return "PlaceVo [placeNo=" + placeNo + ", businessNo=" + businessNo + ", placeName=" + placeName
-				+ ", placeAddress=" + placeAddress + ", placeContent=" + placeContent + ", placeImage=" + placeImage
-				+ ", placeCategory=" + placeCategory + "]";
+				+ ", placeAddress=" + placeAddress + ", placeContent=" + placeContent + ", placeCategory=" + placeCategory + "]";
 	}
 	
 	
