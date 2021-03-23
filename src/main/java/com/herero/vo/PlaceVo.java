@@ -1,91 +1,128 @@
 package com.herero.vo;
 
 public class PlaceVo {
-	
-	private int place_no;
-	private int business_no;
-	private String place_name;
-	private String palce_address;
-	private String place_content;
-	private String place_image;
-	private String place_category;
-	
+
+	private int placeNo;
+	private int businessNo;
+	private String placeName;
+	private String placeAddress;
+	private String placeContent;
+	private String placeImage;
+	private String placeCategory;
 	
 	
 	
 	public PlaceVo() {
 		super();
 	}
-	
-	
-	
-	public PlaceVo(int place_no, int business_no, String place_name, String palce_address, String place_content,
-			String place_image, String place_category) {
+
+
+
+	public PlaceVo(int placeNo, int businessNo, String placeName, String placeAddress, String placeContent,
+			String placeImage, String placeCategory) {
 		super();
-		this.place_no = place_no;
-		this.business_no = business_no;
-		this.place_name = place_name;
-		this.palce_address = palce_address;
-		this.place_content = place_content;
-		this.place_image = place_image;
-		this.place_category = place_category;
+		this.placeNo = placeNo;
+		this.businessNo = businessNo;
+		this.placeName = placeName;
+		this.placeAddress = placeAddress;
+		this.placeContent = placeContent;
+		this.placeImage = placeImage;
+		this.placeCategory = placeCategory;
 	}
 
 
 
-	public int getPlace_no() {
-		return place_no;
+	public int getPlaceNo() {
+		return placeNo;
 	}
-	public void setPlace_no(int place_no) {
-		this.place_no = place_no;
+
+
+
+	public void setPlaceNo(int placeNo) {
+		this.placeNo = placeNo;
 	}
-	public int getBusiness_no() {
-		return business_no;
+
+
+
+	public int getBusinessNo() {
+		return businessNo;
 	}
-	public void setBusiness_no(int business_no) {
-		this.business_no = business_no;
+
+
+
+	public void setBusinessNo(int businessNo) {
+		this.businessNo = businessNo;
 	}
-	public String getPlace_name() {
-		return place_name;
+
+
+
+	public String getPlaceName() {
+		return placeName;
 	}
-	public void setPlace_name(String place_name) {
-		this.place_name = place_name;
+
+
+
+	public void setPlaceName(String placeName) {
+		this.placeName = placeName;
 	}
-	public String getPalce_address() {
-		return palce_address;
+
+
+
+	public String getPlaceAddress() {
+		return placeAddress;
 	}
-	public void setPalce_address(String palce_address) {
-		this.palce_address = palce_address;
+
+
+
+	public void setPlaceAddress(String placeAddress) {
+		this.placeAddress = placeAddress;
 	}
-	public String getPlace_content() {
-		return place_content;
+
+
+
+	public String getPlaceContent() {
+		return placeContent;
 	}
-	public void setPlace_content(String place_content) {
-		this.place_content = place_content;
+
+
+
+	public void setPlaceContent(String placeContent) {
+		this.placeContent = placeContent;
 	}
-	public String getPlace_image() {
-		return place_image;
+
+
+
+	public String getPlaceImage() {
+		return placeImage;
 	}
-	public void setPlace_image(String place_image) {
-		this.place_image = place_image;
+
+
+
+	public void setPlaceImage(String placeImage) {
+		this.placeImage = placeImage;
 	}
-	public String getPlace_category() {
-		return place_category;
+
+
+
+	public String getPlaceCategory() {
+		return placeCategory;
 	}
-	public void setPlace_category(String place_category) {
-		this.place_category = place_category;
+
+
+
+	public void setPlaceCategory(String placeCategory) {
+		this.placeCategory = placeCategory;
 	}
 
 
 
 	@Override
 	public String toString() {
-		return "PlaceVo [place_no=" + place_no + ", business_no=" + business_no + ", place_name=" + place_name
-				+ ", palce_address=" + palce_address + ", place_content=" + place_content + ", place_image="
-				+ place_image + ", place_category=" + place_category + "]";
+		return "PlaceVo [placeNo=" + placeNo + ", businessNo=" + businessNo + ", placeName=" + placeName
+				+ ", placeAddress=" + placeAddress + ", placeContent=" + placeContent + ", placeImage=" + placeImage
+				+ ", placeCategory=" + placeCategory + "]";
 	}
 	
 	
-	
-
 }
+	

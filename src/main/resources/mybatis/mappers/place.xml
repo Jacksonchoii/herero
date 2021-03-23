@@ -7,16 +7,14 @@
 	<!-- 리스트 전체 가져오기 -->
 	<select id="selectList" resultType="com.herero.vo.PlaceVo">
 		<![CDATA[
-			select 	p.place_no,
-        			b.business_no ,
-					p.place_name,
-					p.palce_address,
-					p.place_content,
-					p.place_image,
-					p.place_category
-			from place p, business b
-			where p.business_no = b.business_no
-			order by no desc
+			select 	place_no placeNo,
+					place_name placeName,
+					place_address placeAddress,
+					place_content placeContent,
+					place_image placeImage,
+					place_category placeCategory
+			from place
+			order by place_no desc
 		]]>
 	</select>
 
